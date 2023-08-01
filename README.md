@@ -18,7 +18,18 @@ check version:
 go version
 ```
 
+# Dev
+```shell
+git clone https://github.com/latermonk/k8s-imagedive-admissioncontroller.git && cd k8s-imagedive-admissioncontroller
+```
 
+```shell
+go mod tidy
+```
+
+```shell
+go run cmd/dive.go
+```
 
 ---
 
